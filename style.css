@@ -1,0 +1,48 @@
+body {
+  background: orange;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+.container {
+  width: 800px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 260%;
+  text-transform: uppercase;
+  color: white;
+}
+
+#seconds,
+#tens {
+  font-size: 200%;
+  color: white;
+}
+
+button {
+  background: orange;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 120%;
+  width: 180px;
+  padding: 18px 10px;
+  margin: 10px;
+}
+
+button:hover {
+  background: white;
+  border: 1px solid white;
+  color: orange;
+}
+
+p {
+  color: white;
+}
