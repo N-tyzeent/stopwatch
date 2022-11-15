@@ -46,3 +46,48 @@ button:hover {
 p {
   color: white;
 }
+
+@media (min-width: 375px) {
+  .container,
+  h1,
+  h2,
+  #seconds,
+  #tens,
+  button,
+  button:hover,
+  p {
+    width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container,
+  h1,
+  h2,
+  #seconds,
+  #tens,
+  button,
+  button:hover,
+  p {
+    width: 400px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .container,
+  h1,
+  h2,
+  #seconds,
+  #tens,
+  button,
+  button:hover,
+  p {
+    width: 800px;
+  }
+
+
+  .buttons{
+    display: flex;
+    gap: 20px;
+  }
+}
